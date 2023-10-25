@@ -4,7 +4,7 @@
 
 🤖 **AI Research Engineer** at Volkswagen by day, *Sleepy but creative maker of Generative Gags* by night! 🚗💨
 
-🤓 When I'm not concocting cutting-edge algorithms, I'm delving deep into the mysteries of generative modeling, geometric guidance, and diffusion models. Think of me as the Dr. Frankenstein of the AI world, but instead of bolts in my neck, I've got a knack for neural networks! ⚡️🧠
+🤓 When I'm not concocting cutting-edge algorithms, I'm delving deep into the mysteries of generative modeling, geometric guidance, and diffusion models.
 
 🎓 With a Master's from Carnegie Mellon University, I've not only survived the Steel City, but I've thrived in the world of computer vision. My mission: to make machines see the world with rose-tinted lenses (or any other color you prefer!). 🌆📷
 
