@@ -1,5 +1,3 @@
-# dbalaram.github.io
-
 # Dhanashree Balaram
 
 ## About Me
