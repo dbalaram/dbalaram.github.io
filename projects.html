@@ -3,84 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects - Shree's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-        header, nav ul {
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
             background-color: #333;
-            color: white;
+            padding: 20px 0;
         }
-        header {
+        .sidebar h2 {
+            color: white;
             text-align: center;
-            padding: 10px 20px;
-        }
-        nav ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin: 0;
-        }
-        nav ul li a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-        }
-        nav ul li a:hover {
-            background-color: #111;
-        }
-        main {
-            padding: 20px;
-        }
-        .project {
             margin-bottom: 20px;
         }
-        .project h3 {
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        .sidebar ul li a:hover {
+            background-color: #4CAF50;
+        }
+        main {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        h1 {
             color: #4CAF50;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 5px;
+            background-color: #f9f9f9;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
-    </header>
-    <nav>
+    <div class="sidebar">
+        <h2>Menu</h2>
         <ul>
-            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
     <main>
-        <div class="project">
-            <h3>Semantic Search</h3>
-            <p>
-                A web application supporting text-to-image and image-to-image search for images and documents. 
-                <a href="https://github.com/yourusername/dashcam-search" target="_blank">GitHub Repo</a>
-            </p>
-        </div>
-        <div class="project">
-            <h3>Project ....</h3>
-            <p>
-                Description
-                <a href="https://github.com/yourusername/weaviate-benchmarking" target="_blank">GitHub Repo</a>
-            </p>
-        </div>
-        <div class="project">
-            <h3>Project ...</h3>
-            <p>
-                description
-                <a href="https://github.com/yourusername/vision-language-finetuning" target="_blank">GitHub Repo</a>
-            </p>
+        <h1>Projects</h1>
+
+        <h2>Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy</h2>
+        <p>
+            In collaboration with <strong>Involve</strong>, I analyzed data from schools in Bangalore, India, 
+            comparing and contrasting <strong>peer-to-peer learning strategies</strong> against 
+            classical/traditional approaches. This project aimed to understand how peer teaching could 
+            enhance personalized learning outcomes.
+        </p>
+        <p>
+            The findings were published in the <strong>Proceedings of the International Conference on Technology 4 Education (T4E) 2023</strong>, 
+            hosted by IIT Bombay. ISBN Number: <strong>978-81-972700-0-0</strong>.
+        </p>
+        <p>
+            <strong>Paper Title:</strong> "Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy."
+        </p>
+
+        <div class="image-container">
+            <h3>Graph 1: Peer-to-Peer Learning vs. Traditional Learning Outcomes</h3>
+            <img src="graph1.png" alt="Graph 1">
+
+            <h3>Graph 2: Data Comparison Across Schools in Bangalore</h3>
+            <img src="graph2.png" alt="Graph 2">
         </div>
     </main>
 </body>
