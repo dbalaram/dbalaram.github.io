@@ -3,60 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shree Balaram</title>
+    <title>Shree's Portfolio</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
             background-color: #333;
+            padding: 20px 0;
         }
-        nav ul li {
-            margin: 0;
+        .sidebar h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        nav ul li a {
-            display: block;
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 14px 20px;
+            padding: 10px 20px;
+            display: block;
         }
-        nav ul li a:hover {
-            background-color: #111;
+        .sidebar ul li a:hover {
+            background-color: #4CAF50;
         }
         main {
+            margin-left: 250px;
             padding: 20px;
+        }
+        .profile {
             text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10%;
+            object-fit: cover;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Dhanashree Balaram</h1>
-    </header>
-    <nav>
+    <div class="sidebar">
+        <h2>Menu</h2>
         <ul>
-            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
     <main>
-        <h2>About Me</h2>
-        <p>I am an AI Engineer specializing at Volkswagen Innovation working on vision-language models, 3D generative AI and spatial reasoning models.</p>
+        <div class="profile">
+            <img src="profile.png" alt="Profile Picture">
+        </div>
+        <h1>Welcome to Shree's Portfolio</h1>
+        <p>
+            Hi! I'm Dhanashree Balaram, also known as Shree. I am an AI Engineer working on exciting projects in 3D generative AI, vision-language models, and diving into robotics. 
+        </p>
+        <p>
+            Beyond my professional work, I am passionate about applying machine learning to tackle issues in waste management and improve education in developing countries. I believe technology can drive significant positive change, and I strive to be part of that transformation.
+        </p>
+        <p>
+            Feel free to explore the links in the sidebar to learn more about me, check out my projects, or get in touch!
+        </p>
     </main>
 </body>
 </html>
