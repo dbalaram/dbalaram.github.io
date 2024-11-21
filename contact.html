@@ -3,53 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact - Shree's Portfolio</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
         }
-        header, nav ul {
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
             background-color: #333;
+            padding: 20px 0;
+        }
+        .sidebar h2 {
             color: white;
-        }
-        header {
             text-align: center;
-            padding: 10px 20px;
+            margin-bottom: 20px;
         }
-        nav ul {
+        .sidebar ul {
             list-style-type: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
             padding: 0;
         }
-        nav ul li {
-            margin: 0;
+        .sidebar ul li {
+            margin: 10px 0;
         }
-        nav ul li a {
-            display: block;
+        .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 14px 20px;
+            padding: 10px 20px;
+            display: block;
         }
-        nav ul li a:hover {
-            background-color: #111;
+        .sidebar ul li a:hover {
+            background-color: #4CAF50;
         }
         main {
+            margin-left: 250px;
             padding: 20px;
-            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .contact-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .contact-list li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-list img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
         }
         a {
+            text-decoration: none;
             color: #4CAF50;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Contact Me</h1>
-    </header>
-    <nav>
+    <div class="sidebar">
+        <h2>Menu</h2>
         <ul>
-            <li><a href="index.html">Home</a></
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <main>
+        <h1>Contact Me</h1>
+        <p>Feel free to connect with me on any of the following platforms:</p>
+        <ul class="contact-list">
+            <li>
+                <img src="google-scholar-icon.png" alt="Google Scholar">
+                <a href="https://scholar.google.com/citations?user=Gt73F6kAAAAJ&hl=en" target="_blank">Google Scholar</a>
+            </li>
+            <li>
+                <img src="linkedin-icon.png" alt="LinkedIn">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <img src="twitter-icon.png" alt="Twitter">
+                <a href="https://twitter.com" target="_blank">X (formerly Twitter)</a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
