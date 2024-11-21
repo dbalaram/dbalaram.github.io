@@ -3,84 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About - Shree's Portfolio</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
             background-color: #333;
+            padding: 20px 0;
         }
-        nav ul li {
-            margin: 0;
+        .sidebar h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        nav ul li a {
-            display: block;
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 14px 20px;
+            padding: 10px 20px;
+            display: block;
         }
-        nav ul li a:hover {
-            background-color: #111;
+        .sidebar ul li a:hover {
+            background-color: #4CAF50;
         }
         main {
+            margin-left: 250px;
             padding: 20px;
-            max-width: 800px;
-            margin: auto;
+        }
+        h1 {
+            color: #4CAF50;
         }
         h2 {
-            color: #4CAF50;
+            color: #333;
+            margin-top: 30px;
+        }
+        p, ul {
+            line-height: 1.6;
         }
         ul {
             padding-left: 20px;
         }
-        .profile-pic {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .profile-pic img {
-            border-radius: 60%;
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f1f1f1;
-        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-    </header>
-    <nav>
+    <div class="sidebar">
+        <h2>Menu</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
     <main>
-        <div class="profile-pic">
-            <img src="profile.png" alt="Profile Picture">
-        </div>
+        <h1>About Me</h1>
+        <p>
+            Hi, I’m <strong>Dhanashree Balaram</strong>, also known as Shree. I am an <strong>AI Engineer</strong> specializing in 
+            <strong>3D Generative AI</strong>, <strong>vision-language models</strong>, and diving into the world of robotics. My passion lies 
+            in solving real-world problems through innovative technology.
+        </p>
+
         <h2>Education</h2>
         <ul>
             <li>Bachelor's in Computer Science - XYZ University</li>
@@ -89,21 +84,19 @@
 
         <h2>Designations</h2>
         <ul>
-            <li>AI Engineer at [Your Company]</li>
+            <li>AI Engineer at [Your Current Company]</li>
             <li>Data Scientist Intern at [Previous Company]</li>
             <li>Research Assistant in Machine Learning</li>
         </ul>
 
         <h2>Areas of Interest</h2>
         <ul>
-            <li>Semantic Search and AI-driven data solutions</li>
+            <li>3D Generative AI</li>
             <li>Vision-Language Models (e.g., CLIP, BLIP)</li>
-            <li>Cost Optimization in Data Lakes</li>
-            <li>Fitness Tech and Data Analysis</li>
+            <li>Robotics</li>
+            <li>Applying ML to waste management in developing countries</li>
+            <li>Improving education using machine learning in underprivileged areas</li>
         </ul>
     </main>
-    <footer>
-        <p>&copy; 2024 Renu</p>
-    </footer>
 </body>
 </html>
