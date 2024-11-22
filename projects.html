@@ -9,38 +9,33 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 250px;
-            height: 100%;
+        .header {
+            display: flex;
+            align-items: center;
             background-color: #333;
-            padding: 20px 0;
-        }
-        .sidebar h2 {
             color: white;
-            text-align: center;
-            margin-bottom: 20px;
+            padding: 10px 20px;
         }
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
         }
-        .sidebar ul li {
-            margin: 10px 0;
+        .header nav {
+            margin-left: auto;
         }
-        .sidebar ul li a {
+        .header nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
-            display: block;
+            margin: 0 15px;
+            font-weight: bold;
         }
-        .sidebar ul li a:hover {
-            background-color: #4CAF50;
+        .header nav a:hover {
+            color: #4CAF50;
         }
         main {
-            margin-left: 250px;
             padding: 20px;
         }
         h1 {
@@ -50,8 +45,11 @@
             color: #333;
             margin-top: 30px;
         }
-        p {
+        p, ul {
             line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
         }
         .image-container {
             text-align: center;
@@ -71,14 +69,15 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="header">
+        <img src="profile.png" alt="Profile Picture">
+        <h2>Shree's Portfolio</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
     <main>
         <h1>Projects</h1>
@@ -86,9 +85,8 @@
         <h2>Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy</h2>
         <p>
             In collaboration with <strong>Involve</strong>, I analyzed data from schools in Bangalore, India, 
-            comparing and contrasting <strong>peer-to-peer learning strategies</strong> against 
-            classical/traditional approaches. This project aimed to understand how peer teaching could 
-            enhance personalized learning outcomes.
+            comparing and contrasting <strong>peer-to-peer learning strategies</strong> against classical/traditional approaches. 
+            This project aimed to understand how peer teaching could enhance personalized learning outcomes.
         </p>
         <p>
             The findings were published in the <strong>Proceedings of the International Conference on Technology 4 Education (T4E) 2023</strong>, 
@@ -97,23 +95,11 @@
         <p>
             <strong>Read the paper here:</strong> <a href="https://etsociety.org/wp-content/uploads/2024/09/Etsy-Proceedings-22-sept-Final-version.pdf" target="_blank">Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy</a>
         </p>
-
-        <p>
-            <strong>Paper Title:</strong> "Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy."
-        </p>
         <iframe 
             src="https://etsociety.org/wp-content/uploads/2024/09/Etsy-Proceedings-22-sept-Final-version.pdf#page=84" 
             width="80%" 
             height="600px">
         </iframe>
-
-        <div class="image-container">
-            <h3>Graph 1: Peer-to-Peer Learning vs. Traditional Learning Outcomes</h3>
-            <img src="graph1.png" alt="Graph 1">
-
-            <h3>Graph 2: Data Comparison Across Schools in Bangalore</h3>
-            <img src="graph2.png" alt="Graph 2">
-        </div>
     </main>
 </body>
 </html>

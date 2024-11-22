@@ -9,39 +9,33 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 250px;
-            height: 100%;
+        .header {
+            display: flex;
+            align-items: center;
             background-color: #333;
-            padding: 20px 0;
-        }
-        .sidebar h2 {
             color: white;
-            text-align: center;
-            margin-bottom: 20px;
+            padding: 10px 20px;
         }
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
         }
-        .sidebar ul li {
-            margin: 10px 0;
+        .header nav {
+            margin-left: auto;
         }
-        .sidebar ul li a {
+        .header nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
-            display: block;
+            margin: 0 15px;
+            font-weight: bold;
         }
-        .sidebar ul li a:hover {
-            background-color: #4CAF50;
+        .header nav a:hover {
+            color: #4CAF50;
         }
         main {
-            margin-left: 250px;
             padding: 20px;
         }
         h1 {
@@ -49,35 +43,41 @@
         }
         h2 {
             color: #333;
-            margin-top: 30px;
         }
         p, ul {
             line-height: 1.6;
         }
-        ul {
-            padding-left: 20px;
-        }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="header">
+        <img src="profile.png" alt="Profile Picture">
+        <h2>Shree's Portfolio</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
     <main>
         <h1>About Me</h1>
         <p>
             Hi, I’m <strong>Dhanashree Balaram</strong>, also known as Shree. I am an <strong>AI Engineer</strong> specializing in 
-            <strong>3D Generative AI</strong>, <strong>vision-language models</strong>, and exploring the field of robotics. My passion lies 
+            <strong>3D Generative AI</strong>, <strong>vision-language models</strong>, and diving into the world of robotics. My passion lies 
             in solving real-world problems through innovative technology.
         </p>
-
         <h2>Education</h2>
         <ul>
-            <li>Master of Science in Artificial Intelligence - Carnegie Mellon University (2017 – 2018)</li>
-            <li>Bachelor of Technol
+            <li>Master of Science in Artificial Intelligence - Carnegie Mellon University</li>
+            <li>Bachelor of Technology in Computer Science</li>
+        </ul>
+        <h2>Professional Experience</h2>
+        <ul>
+            <li><strong>Researcher, Perception and Machine Learning</strong> at Volkswagen IECC</li>
+            <li><strong>Applied Machine Learning Research Scientist</strong> at Adobe Systems</li>
+            <li><strong>Research Assistant</strong> at [Previous Institution]</li>
+        </ul>
+    </main>
+</body>
+</html>
