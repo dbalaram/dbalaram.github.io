@@ -9,94 +9,66 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 250px;
-            height: 100%;
+        .header {
+            display: flex;
+            align-items: center;
             background-color: #333;
-            padding: 20px 0;
-        }
-        .sidebar h2 {
             color: white;
-            text-align: center;
-            margin-bottom: 20px;
+            padding: 10px 20px;
         }
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
         }
-        .sidebar ul li {
-            margin: 10px 0;
+        .header nav {
+            margin-left: auto;
         }
-        .sidebar ul li a {
+        .header nav a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
-            display: block;
+            margin: 0 15px;
+            font-weight: bold;
         }
-        .sidebar ul li a:hover {
-            background-color: #4CAF50;
+        .header nav a:hover {
+            color: #4CAF50;
         }
         main {
-            margin-left: 250px;
             padding: 20px;
         }
         h1 {
-            color: #4CAF50;
+            color: #295ba8;
         }
-        .contact-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 20px 0;
+        h2 {
+            color: #333;
         }
-        .contact-list li {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-        .contact-list img {
-            width: 24px;
-            height: 24px;
-            margin-right: 10px;
-        }
-        a {
-            text-decoration: none;
-            color: #4CAF50;
-        }
-        a:hover {
-            text-decoration: underline;
+        p {
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="header">
+        <img src="profile.png" alt="Profile Picture">
+        <h2>Shree's Portfolio</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
     <main>
         <h1>Contact Me</h1>
-        <p>Feel free to connect with me on any of the following platforms:</p>
-        <ul class="contact-list">
-            <li>
-                <img src="google-scholar-icon.png" alt="Google Scholar">
-                <a href="https://scholar.google.com/citations?user=Gt73F6kAAAAJ&hl=en" target="_blank">Google Scholar</a>
-            </li>
-            <li>
-                <img src="linkedin-icon.png" alt="LinkedIn">
-                <a href="https://www.linkedin.com/in/dhanashree-balaram/" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-                <img src="x-logo.png" alt="Twitter">
-                <a href="https://twitter.com" target="_blank">X (formerly Twitter)</a>
-            </li>
+        <p>If you'd like to get in touch, feel free to use the following methods:</p>
+        <ul>
+            <li><strong>Email:</strong> dhanashree dot balaram at gmail dot com</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dhanashree-balaram/" target="_blank">Dhanashree Balaram</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/dbalaram" target="_blank">github.com/shree</a></li>
         </ul>
+        <p>I'm always open to discussing exciting AI projects, collaboration opportunities, or simply connecting with like-minded individuals!</p>
     </main>
 </body>
 </html>
