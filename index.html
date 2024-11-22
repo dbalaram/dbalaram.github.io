@@ -3,71 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shree's Portfolio</title>
+    <title>About - Shree's Portfolio</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .header {
-            display: flex;
-            align-items: center;
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
             background-color: #333;
+            padding: 20px 0;
+        }
+        .sidebar h2 {
             color: white;
-            padding: 10px 20px;
+            text-align: center;
+            margin-bottom: 20px;
         }
-        .header img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 10px;
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
         }
-        .header nav {
-            margin-left: auto;
+        .sidebar ul li {
+            margin: 10px 0;
         }
-        .header nav a {
+        .sidebar ul li a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
+            padding: 10px 20px;
+            display: block;
         }
-        .header nav a:hover {
-            color: #4CAF50;
+        .sidebar ul li a:hover {
+            background-color: #4CAF50;
         }
         main {
+            margin-left: 250px;
             padding: 20px;
         }
         h1 {
             color: #295ba8;
         }
-        p {
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        p, ul {
             line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="profile.png" alt="Profile Picture">
-        <h2>Shree's Portfolio</h2>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
     <main>
-        <h1>Welcome to Shree's Portfolio</h1>
+        <h1>About Me</h1>
         <p>
-            Hi! I'm Dhanashree Balaram, also known as Shree. I am an AI Engineer working on exciting projects in 3D generative AI, vision-language models, and diving into robotics. 
+            I discovered my love for linear algebra during grad school—it was like finding the cheat code to math. One day, while trying to untangle the mysteries of the Jacobian, something just clicked, and suddenly, I could see it. It felt like unlocking a superpower (minus the cape). Who knew matrices and transformations could be so exciting?
+
+What really keeps me hooked is bringing all that abstract theory to life. Building real-world models that solve problems in OEM industries, refine marketing strategies, or even help designers unleash their creativity has been incredibly fulfilling. It’s like being a magician, except instead of pulling rabbits out of hats, I’m pulling solutions out of eigenvectors.
         </p>
-        <p>
-            Beyond my professional work, I am passionate about applying machine learning to tackle issues in waste management and improve education in developing countries. I believe technology can drive significant positive change, and I strive to be part of that transformation.
-        </p>
-        <p>
-            Feel free to explore the tabs above to learn more about me, check out my projects, or get in touch!
-        </p>
-    </main>
-</body>
-</html>
+
+        <h2>Education</h2>
+        <ul>
+            <li>Master of Science in Artificial Intelligence - Carnegie Mellon University (2017 – 2018)</li>
+            <li>Bachelor of Technol
