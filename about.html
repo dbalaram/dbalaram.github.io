@@ -40,6 +40,19 @@
         .sidebar ul li a:hover {
             background-color: #4CAF50;
         }
+        .sidebar .profile-pic {
+            margin-bottom: 20px;
+            margin-left:20px
+
+        }
+
+        .sidebar .profile-pic img {
+            width: 200px; /* Adjust the width of the image */
+            height: 200px; /* Adjust the height to match width */
+            border-radius: 60%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image maintains aspect ratio */
+            border: 2px solid white; /* Optional: Add a border for styling */
+        }
         main {
             margin-left: 250px;
             padding: 20px;
@@ -52,7 +65,7 @@
             margin-top: 30px;
         }
         p, ul {
-            line-height: 1.6;
+            line-height: 1.5;
         }
         ul {
             padding-left: 20px;
@@ -61,6 +74,9 @@
 </head>
 <body>
     <div class="sidebar">
+        <div class="profile-pic">
+            <img src="pictures/profile_pic.png" alt="Profile Picture">
+        </div>
         <h2>Menu</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -82,3 +98,7 @@ What really keeps me hooked is bringing all that abstract theory to life. Buildi
         <ul>
             <li>Master of Science in Artificial Intelligence - Carnegie Mellon University (2017 – 2018)</li>
             <li>Bachelor of Technol
+        </ul>
+    </main>
+</body>
+</html>

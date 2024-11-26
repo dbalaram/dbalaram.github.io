@@ -16,7 +16,6 @@
             width: 250px;
             height: 100%;
             background-color: #333;
-            color: white;
             padding: 20px 0;
         }
         .sidebar h2 {
@@ -25,21 +24,34 @@
             margin-bottom: 20px;
         }
         .sidebar ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
             margin: 0;
         }
         .sidebar ul li {
-            margin: 10px 0;
+            margin: 15px 0;
         }
         .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 12px 20px;
             display: block;
         }
         .sidebar ul li a:hover {
             background-color: #4CAF50;
+        }
+        .sidebar .profile-pic {
+            margin-bottom: 20px;
+            margin-left:20px
+
+        }
+
+        .sidebar .profile-pic img {
+            width: 200px; /* Adjust the width of the image */
+            height: 200px; /* Adjust the height to match width */
+            border-radius: 60%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image maintains aspect ratio */
+            border: 2px solid white; /* Optional: Add a border for styling */
         }
         main {
             margin-left: 250px;
@@ -49,15 +61,11 @@
             color: #295ba8;
         }
         h2 {
-            color: #555;
-            margin-top: 20px;
-        }
-        .job-title {
-            font-weight: bold;
-            color: #295ba8;
+            color: #333;
+            margin-top: 30px;
         }
         p, ul {
-            line-height: 1.6;
+            line-height: 1.5;
         }
         ul {
             padding-left: 20px;
@@ -66,6 +74,9 @@
 </head>
 <body>
     <div class="sidebar">
+        <div class="profile-pic">
+            <img src="pictures/profile_pic.png" alt="Profile Picture">
+        </div>
         <h2>Menu</h2>
         <ul>
             <li><a href="index.html">Home</a></li>

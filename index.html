@@ -29,7 +29,7 @@
             margin: 0;
         }
         .sidebar ul li {
-            margin: 15px 0; /* Increase or standardize spacing */
+            margin: 15px 0;
         }
         .sidebar ul li a {
             color: white;
@@ -40,30 +40,43 @@
         .sidebar ul li a:hover {
             background-color: #4CAF50;
         }
+        .sidebar .profile-pic {
+            margin-bottom: 20px;
+            margin-left:20px
+
+        }
+
+        .sidebar .profile-pic img {
+            width: 200px; /* Adjust the width of the image */
+            height: 200px; /* Adjust the height to match width */
+            border-radius: 60%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image maintains aspect ratio */
+            border: 2px solid white; /* Optional: Add a border for styling */
+        }
         main {
             margin-left: 250px;
             padding: 20px;
         }
-        .profile {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .profile img {
-            width: 200px;
-            height: 200px;
-            border-radius: 10%;
-            object-fit: cover;
-        }
         h1 {
             color: #295ba8;
         }
-        p {
-            line-height: 1.6;
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        p, ul {
+            line-height: 1.5;
+        }
+        ul {
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
     <div class="sidebar">
+        <div class="profile-pic">
+            <img src="pictures/profile_pic.png" alt="Profile Picture">
+        </div>
         <h2>Menu</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -74,9 +87,6 @@
         </ul>
     </div>
     <main>
-        <div class="profile">
-            <img src="pictures/profile_pic.png" alt="Profile Picture">
-        </div>
         <h1> Hi! I'm Dhanashree Balaram</h1>
         <p>
             I am an AI Research Engineer and Project Lead, specializing in researching, building, and analyzing models and addressing challenges in 3D generative AI, vision-language models, and robotics. My role encompasses both theoretical and applied aspects of artificial intelligence.

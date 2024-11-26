@@ -26,19 +26,33 @@
         .sidebar ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
         .sidebar ul li {
-            margin: 10px 0;
+            margin: 15px 0; /* Increase or standardize spacing */
         }
         .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 12px 20px;
             display: block;
         }
         .sidebar ul li a:hover {
             background-color: #4CAF50;
         }
+        .sidebar .profile-pic {
+            margin-bottom: 20px;
+            margin-left:20px
+
+        }
+        .sidebar .profile-pic img {
+            width: 200px; /* Adjust the width of the image */
+            height: 200px; /* Adjust the height to match width */
+            border-radius: 60%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image maintains aspect ratio */
+            border: 2px solid white; /* Optional: Add a border for styling */
+        }
+        
         main {
             margin-left: 250px;
             padding: 20px;
@@ -50,19 +64,8 @@
             color: #333;
             margin-top: 30px;
         }
-        p {
-            line-height: 1.6;
-        }
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            padding: 5px;
-            background-color: #f9f9f9;
+        p, ul {
+            line-height: 1.5;
         }
         iframe {
             margin: 20px 0;
@@ -72,6 +75,9 @@
 </head>
 <body>
     <div class="sidebar">
+        <div class="profile-pic">
+            <img src="pictures/profile_pic.png" alt="Profile Picture">
+        </div>
         <h2>Menu</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
