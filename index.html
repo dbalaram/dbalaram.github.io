@@ -70,6 +70,36 @@
         ul {
             padding-left: 20px;
         }
+        .ticker {
+            position: fixed; /* Keep it in a fixed position on the page */
+            bottom: 0; /* Stick it to the top of the page */
+            left: 0;
+            width: 100%; /* Make it span the entire width */
+            background-color: #bcb8a6; /* Highlighted background for visibility */
+            color: #352626; /* Text color for readability */
+            font-size: 20px; /* Adjust font size */
+            font-weight: bold;
+            text-align: center;
+            z-index: 1000; /* Ensure it stays above other elements */
+            padding: 10px 0px; /* Add vertical padding */
+            overflow: hidden; /* Prevent text from spilling over */
+        }
+
+        .ticker p {
+            margin: 0; /* Remove default margin for the paragraph */
+            display: inline-block;
+            white-space: nowrap; /* Prevent wrapping */
+            animation: scroll-text 10s linear infinite; /* Smooth scrolling animation */
+        }
+    /* Scrolling animation */
+        @keyframes scroll-text {
+            0% {
+                transform: translateX(200%);
+            }
+            100% {
+                transform: translateX(-200%);
+            }
+        }
     </style>
 </head>
 <body>
@@ -99,6 +129,10 @@
         <p>
             Feel free to explore the links in the sidebar to learn more about me, check out my projects, or get in touch!
         </p>
+        <div class="ticker">
+            <p>🚧 This site is under construction. 🚧</p>
+        </div>
+        
     </main>
 </body>
 </html>
