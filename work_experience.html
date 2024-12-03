@@ -13,15 +13,15 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 250px;
+            width: 17%;
             height: 100%;
             background-color: #333;
-            padding: 20px 0;
+            padding: 4% 0;
         }
         .sidebar h2 {
             color: white;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10%;
         }
         .sidebar ul {
             list-style-type: none;
@@ -29,46 +29,76 @@
             margin: 0;
         }
         .sidebar ul li {
-            margin: 15px 0;
+            margin: 3% 0;
         }
         .sidebar ul li a {
             color: white;
             text-decoration: none;
-            padding: 12px 20px;
+            padding: 4% 6%;
             display: block;
         }
         .sidebar ul li a:hover {
             background-color: #4CAF50;
         }
         .sidebar .profile-pic {
-            margin-bottom: 20px;
-            margin-left:20px
+            margin-bottom: 10%;
+            margin-left: 18%
 
         }
 
         .sidebar .profile-pic img {
-            width: 200px; /* Adjust the width of the image */
-            height: 200px; /* Adjust the height to match width */
-            border-radius: 60%; /* Make the image circular */
+            width: 70%; /* Adjust the width of the image */
+            height: 70%; /* Adjust the height to match width */
+            border-radius: 50%; /* Make the image circular */
             object-fit: cover; /* Ensure the image maintains aspect ratio */
             border: 2px solid white; /* Optional: Add a border for styling */
         }
         main {
-            margin-left: 250px;
-            padding: 20px;
+            margin-left: 16%;
+            padding: 4%;
         }
         h1 {
             color: #295ba8;
         }
         h2 {
             color: #333;
-            margin-top: 30px;
+            margin-top: 7%;
         }
         p, ul {
             line-height: 1.5;
         }
         ul {
-            padding-left: 20px;
+            padding-left: 4%;
+        }
+        .ticker {
+            position: fixed; /* Keep it in a fixed position on the page */
+            bottom: 0; /* Stick it to the top of the page */
+            left: 0;
+            width: 100%; /* Make it span the entire width */
+            background-color: #bcb8a6; /* Highlighted background for visibility */
+            color: #352626; /* Text color for readability */
+            font-size: 100%; /* Adjust font size */
+            font-weight: bold;
+            text-align: center;
+            z-index: 1000; /* Ensure it stays above other elements */
+            padding: 1% 0%; /* Add vertical padding */
+            overflow: hidden; /* Prevent text from spilling over */
+        }
+
+        .ticker p {
+            margin: 0; /* Remove default margin for the paragraph */
+            display: inline-block;
+            white-space: nowrap; /* Prevent wrapping */
+            animation: scroll-text 10s linear infinite; /* Smooth scrolling animation */
+        }
+    /* Scrolling animation */
+        @keyframes scroll-text {
+            0% {
+                transform: translateX(200%);
+            }
+            100% {
+                transform: translateX(-200%);
+            }
         }
     </style>
 </head>
