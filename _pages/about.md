@@ -28,7 +28,7 @@ You can read more about my work on this topic in the publications section of thi
   Designing multimodal retrieval systems to surface rare and corner-case scenarios from millions of camera views and driving frames, enabling validation and safety analysis in autonomous vehicle datasets.
 
 - **Hierarchical Clustering**  
-  Designing multi-level clustering frameworks to study how electric vehicles are charged and used; specifically to inform downstream tasks of determining batery state of health
+  Designing multi-level clustering frameworks to study how electric vehicles are charged and used; specifically to inform downstream tasks of determining batery state of health.
 
 ---
 
