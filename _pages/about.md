@@ -11,7 +11,7 @@ In previous roles, I've developed both deep learning and classical computer visi
 
 
 Outside of work, I'm passionate about education - specifically, how different teaching pedagogies can enhance students’ understanding of foundational concepts in math and English. I analyze data from schools in India that emphasize peer-learning environments and am particularly interested in how these approaches impact students across diverse socioeconomic and regional backgrounds.
-You can read more about my work on this topic in the publications section of this website.
+You can read more about my work on this topic in the publications section of this website, 
 [here](/publications/#conference-papers)
 
 ---

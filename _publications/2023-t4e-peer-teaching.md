@@ -3,7 +3,7 @@ title: "Promoting Individualized Learning: The Effectiveness of Peer Teaching Pe
 collection: publications
 category: conferences
 permalink: /publication/t4e-peer-teaching/
-excerpt: "Published in the proceedings of the International Conference on Technology for Education (T4E) 2023."
+excerpt: "The study investigates the effectiveness of Peer Teaching in promoting individualized learning and enhancing students’ foundational numeracy outcomes"
 date: 2023-11-24
 venue: 'T4E 2023'
 doi: "10.5281/zenodo.14799441"

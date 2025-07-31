@@ -1,9 +1,9 @@
 ---
 title: "Graph-based Two-level Clustering for Electric Vehicle Usage Patterns"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/egyai-ev-clustering/
-excerpt: "Published in Energy and AI, 2025."
+excerpt: "A two-level clustering framework for electric vehicle driving and charging patterns."
 date: 2025-07-31
 venue: 'Energy and AI'
 doi: "10.1016/j.egyai.2025.100539"
