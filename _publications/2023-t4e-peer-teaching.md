@@ -11,3 +11,5 @@ authors: "Anna Daniel, Pratibha Narayanan, Dhanashree Balaram"
 paperurl: "https://zenodo.org/records/14004916"
 citation: "Daniel, A., Narayanan, P. and Balaram, D. (2023) ‘Promoting Individualized Learning: The Effectiveness of Peer Teaching Pedagogy’. International Conference on Technology 4 Education (T4E) 2023 (T4E), Zenodo, pp. 65–71. doi: 10.5281/zenodo.14799441."
 ---
+
+This study examines whether peer teaching — where senior students instruct small groups of junior peers — can improve numeracy outcomes in under-resourced Indian government schools. Using a mixed-methods approach combining standardized assessments and classroom observations across a year-long program, the findings show significant end-line score improvements with a strong correlation between teaching hours and outcomes. The results highlight peer teaching as a scalable, low-cost strategy for personalized learning that adapts naturally to students’ language and cultural contexts.
