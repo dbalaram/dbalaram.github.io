@@ -1,152 +1,176 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Dhanashree Balaram",
+    "email": "dhanashree.balaram@gmail.com",
+    "phone": "412.294.6572",
+    "website": "https://dbalaram.github.io",
+    "summary": "Senior AI Engineer and Project Manager specializing in vision-language-action models, 3D generative modeling, and multimodal AI systems.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Fremont",
       "countryCode": "US",
-      "region": ""
+      "region": "California"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Dhanashree Balaram",
+        "url": "https://scholar.google.com/citations?user=Gt73F6kAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/my-orcid?orcid=0009-0000-9884-4460"
+        "username": "0009-0000-9884-4460",
+        "url": "https://orcid.org/0009-0000-9884-4460"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "dbalaram",
+        "url": "https://github.com/dbalaram"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "dhanashree-balaram",
+        "url": "https://www.linkedin.com/in/dhanashree-balaram/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Volkswagen Innovation Center",
+      "position": "Senior AI Engineer and Project Manager",
+      "website": "",
+      "startDate": "2023-01-01",
+      "endDate": "",
+      "summary": "Leading research on robotic-arm-based in-cabin testing for automotive manufacturing and VLA models for autonomous driving.",
+      "highlights": [
+        "Leading research on robotic-arm-based in-cabin testing using vision-language-action models and world models.",
+        "Implemented anchor-based flow-matching action expert models for multimodal trajectory planning in autonomous vehicles.",
+        "Spearheaded Multimodal Semantic Search from concept to deployment — adopted as an internal AI tool across all Volkswagen brands.",
+        "Adapted pi-0 VLM+diffusion model for trajectory prediction with an L2 of 1.3m error.",
+        "Proposed novel 3D point-cloud generation architecture using probabilistic diffusion models for structural car design.",
+        "Two patents pending for multimodal guidance and feature-aware sampling for 3D diffusion.",
+        "Led EV battery usage pattern analysis using graph cascaded clustering."
+      ]
+    },
+    {
+      "company": "Lily AI",
+      "position": "Senior Machine Learning Scientist",
+      "website": "",
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "summary": "Zero-shot and self-supervised learning for fashion attribute classification.",
+      "highlights": [
+        "Proposed and implemented Zero-Shot Learning to classify stylistic fashion elements, improving F1 scores on 5 categories by 10%.",
+        "Improved MOCO-V3 performance on fashion style classification with an average F1 increase of 2% across 5 categories."
+      ]
+    },
+    {
+      "company": "Zefr Inc.",
+      "position": "Senior Deep Learning Scientist",
+      "website": "",
+      "startDate": "2021-07-01",
+      "endDate": "2021-12-31",
+      "summary": "Multimodal video content classification for brand safety.",
+      "highlights": [
+        "Improved F1-score on weapon detection in video frames by 6% via fine-tuning CLIP for multi-label classification."
+      ]
+    },
+    {
+      "company": "Adobe Inc.",
+      "position": "Applied Machine Learning Research Scientist",
+      "website": "",
+      "startDate": "2018-08-01",
+      "endDate": "2021-07-31",
+      "summary": "Independent research across generative models, vector search, and recommender systems.",
+      "highlights": [
+        "Led research and prototyping on StyleGAN2 latent space interpolation for image enhancement.",
+        "Created a prototype combining generative techniques with vector search for face attribute retrieval.",
+        "Led a team to design a production-ready recommender system using Contextual Bandits on in-app click data.",
+        "Implemented and deployed ML/DL microservices on AWS for emerging product development."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Carnegie Mellon University",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "M.S.",
       "startDate": "",
       "endDate": "2018",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "PESIT, Bangalore",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "B.E.",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2016",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming & Cloud",
+      "keywords": ["Python", "PyTorch", "Keras", "Pandas", "OpenCV", "GCP", "AWS"]
+    },
+    {
+      "name": "ML/DL",
+      "keywords": ["2D/3D Computer Vision", "Generative Modeling", "Self-supervised Learning", "Search & Rec Sys", "Vision-Language Models"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "MIDAS: Multi-LLM Iterative Data-Adaptive Summarization",
+      "publisher": "ICDAR 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "A multi-LLM iterative framework for data-adaptive document summarization. (to appear)"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Graph-Based Two-Level Clustering for Electric Vehicle Usage Patterns",
+      "publisher": "Energy and AI",
+      "releaseDate": "2025-09-01",
+      "website": "https://www.sciencedirect.com/science/article/pii/S2666546825000710",
+      "summary": "A graph-based two-level clustering framework for EV driving and charging pattern analysis."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Promoting Personalized Learning: The Effectiveness of Peer Teaching Pedagogy",
+      "publisher": "T4E 2023",
+      "releaseDate": "2023-11-24",
+      "website": "https://zenodo.org/records/14004916",
+      "summary": "Study on peer teaching effectiveness for improving numeracy outcomes in Indian government schools."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "The Role of Expert-Driven Prompt Engineering for Fine-Grained Classification in Fashion",
+      "publisher": "NeurIPS WiML Workshop",
+      "releaseDate": "2022-11-01",
+      "website": "https://nips.cc/virtual/2022/57500",
+      "summary": "Expert-crafted prompts for zero-shot fine-grained fashion attribute classification with CLIP."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Recommender Systems and Women Shoppers",
+      "event": "WomenTech Global Conference",
+      "date": "2022-01-01",
+      "location": "Virtual",
+      "description": "Invited talk on recommender systems design with a focus on women shoppers."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Senior Capstone Projects",
+      "institution": "UC-Irvine",
+      "date": "2023-09-01",
+      "role": "Guest Project Advisor",
+      "description": "Advised senior undergraduate students on capstone projects in AI/ML."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }
